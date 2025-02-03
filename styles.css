@@ -5,6 +5,7 @@ header, nav a, .welcome, footer {
     color: #F9FAF8;
     text-decoration: none;
     list-style: none;
+   
 }
 .information, .action {
     background-color: #F9FAF8;
@@ -15,16 +16,37 @@ header, nav a, .welcome, footer {
     color: #1F2937;
 
 }
-header, nav{
+header, ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 5vh;
+    
 
 }
-nav a {
+nav a, ul {
     
     list-style: none;
     margin: 1vh;
 
 }
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20vh;
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+
+
