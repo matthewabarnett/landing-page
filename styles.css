@@ -219,3 +219,11 @@ button {
     color: #F9FAF8;
     font-size: 14px;
 }
+footer {
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 12px;
+}
