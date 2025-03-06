@@ -1,61 +1,58 @@
-
 header, nav a, .welcome, footer {
-    background-color:#1F2937;
+    background-color: #1F2937;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F9FAF8;
     text-decoration: none;
     list-style: none;
-   
 }
+
 .information, .action {
     background-color: #F9FAF8;
     color: #1F2937;
 }
+
 .about {
     background-color: #E5E7EB;
     color: #1F2937;
-
 }
-header, ul{
+
+header, ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 5vh;
-    
-
 }
+
 nav a, ul {
-    
     list-style: none;
     margin: 1vh;
-
 }
+
 .logo-container {
     display: flex;
     justify-content: flex-start;
-    margin: 20vh;
+    align-items: center;
+    margin: 0 20px;
+    flex-grow: 1;
     font-size: 24px;
     color: #F9FAF8;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    margin-left: 20px;
 }
-
-
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 0px;
+    margin: 0;
 }
 
-.welcome{
+.welcome {
     height: 50vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
+    padding: 5vh;
 }
 
 .message {
@@ -66,23 +63,23 @@ nav {
     padding: 5vh;
     flex-basis: 50%;
 }
+
 .greetings {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .picture {
     display: flex;
-    flex-grow: .5;
-    flex-basis: 50%;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    flex-basis: 50%;
     padding: 5vh;
 }
-.summary .sign-button{
+
+.summary .sign-button {
     font-size: 18px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #E5E7EB;
 }
 
@@ -92,11 +89,9 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    
 }
 
 .info-title {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -105,19 +100,19 @@ nav {
 
 .info {
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .square {
-    height:150px;
+    height: 150px;
     width: 150px;
-    border: 3px  solid #3882f6;
+    border: 3px solid #3882f6;
     background-color: #F9FAF8;
     margin: 20px;
     border-radius: 1vh;
     margin-bottom: 5px;
 }
-
 
 .info-container {
     display: flex;
@@ -125,7 +120,6 @@ nav {
     justify-content: space-around;
     width: 30vh;
     align-items: center;
-   
 }
 
 .subtext {
@@ -135,28 +129,24 @@ nav {
 
 .about {
     height: 40vh;
-    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .quote {
-    
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
     font-style: italic;
-    color:#1F2937;
-    width:  100vh;
+    color: #1F2937;
+    width: 100vh;
+    max-width: 90%;
+    text-align: center;
 }
 
 .author {
     align-self: flex-end;
     margin-right: 50vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 750;
 }
 
@@ -168,9 +158,8 @@ nav {
 }
 
 .action-square {
-    height:13vh;
+    height: 13vh;
     width: 130vh;
-    
     background-color: #3882f6;
     margin: 20px;
     border-radius: 1vh;
@@ -193,31 +182,31 @@ nav {
     justify-content: flex-end;
     align-self: center;
     margin: 3vh;
-    
-    
 }
+
 button {
     background-color: #3882f6;
     border: 2px solid #F9FAF8;
     border-radius: 4px;
     color: #F9FAF8;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     padding: 8px;
     height: 40px;
     width: 150px;
 }
-.action-header { 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+.action-header {
     font-size: 18px;
     color: #F9FAF8;
-
 }
+
 .action-info {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F9FAF8;
     font-size: 14px;
+    padding: 3px;
+    margin: 0;
 }
+
 footer {
     height: 7vh;
     display: flex;
@@ -225,17 +214,67 @@ footer {
     align-items: center;
     color: #E5E7EB;
     font-size: 12px;
+    text-align: center;
 }
 
 .placeholder {
-    height:200px;
+    height: 200px;
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
     background-color: #989898;
-   
-   
- 
+}
+
+.message .greetings {
+    padding: 5px;
+}
+
+.message .summary {
+    padding: 10px;
+}
+
+.message .sign-button {
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+    .welcome {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .message {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 5vh 2vh;
+        align-items: center;
+    }
+
+    .picture {
+        flex-basis: 100%;
+        justify-content: center;
+        padding: 2vh;
+    }
+
+    .placeholder {
+        width: 500px;
+        height: 200px;
+    }
+
+    .information {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .author {
+        align-self: flex-end;
+        margin-right: 20px;
+        text-align: right;
+    }
 }
